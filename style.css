@@ -1,0 +1,779 @@
+@font-face {
+    font-family: "gt-eesti";
+    src: url("GT-Eesti.eot");
+    src: url("http://blablacar.pl/fonts/gt-eesti/GT-Eesti-Pro-Display-Regular.eot?#iefix") format("embedded-opentype"), url("http://blablacar.pl/fonts/gt-eesti/GT-Eesti-Pro-Display-Regular.woff2") format("woff2"), url("http://blablacar.pl/fonts/gt-eesti/GT-Eesti-Pro-Display-Regular.woff") format("woff"), url("http://blablacar.pl/fonts/gt-eesti/GT-Eesti-Pro-Display-Regular.ttf") format("truetype");
+}
+
+.clear-fix {
+    clear: both;
+}
+
+body {
+    font-family: gt-eesti, helvetica;
+}
+
+/*header styles start*/
+
+header {
+    font-family: gt-eesti, helvetica;
+    box-sizing: border-box;
+    max-width: 1360px;
+    height: 62px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 22px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+    float: left;
+}
+
+.logo img {
+    height: 26px;
+    position: relative;
+    bottom: 2px;
+}
+
+.logo span {
+    color: #054752;
+    font-size: 24px;
+}
+
+.navigation {
+    float: right;
+}
+
+.navigation ul {
+    float: right;
+    color: #00AFF5;
+}
+
+.navigation li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.plus {
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 17px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.navigation ul li:first-child {
+    background-color: #00AFF5;
+    padding: 10px 32px 10px 18px;
+    border-radius: 15px;
+    color: #fff;
+    margin-right: 30px;
+}
+
+/*header styles end*/
+
+/*search-panel styles start*/
+
+.search-panel-wrapper {
+    background-image: url("https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/rebranding/homeblock_main_desktop.jpg");
+    background-size: cover;
+    background-position: 50% 20%;
+    height: 500px;
+}
+
+.search-panel-content {
+    width: 990px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.search-panel {
+    position: absolute;
+    top: 350px;
+}
+
+/*slogan start*/
+
+.search-panel-slogan {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.search-panel h1, .search-panel h2 {
+    margin-bottom: 20px;
+}
+
+.search-panel h2 {
+    font-size: 26px;
+}
+
+/*slogan end*/
+
+.search-panel-buttons {
+    width: 990px;
+    height: 48px;
+}
+
+.search-panel-buttons>* {
+    margin-right: 8px;
+    font-weight: bold;
+    color: #ccc;
+    float: left;
+}
+
+.symbol {
+    position: absolute;
+    z-index: 1;
+    font-size: 41px;
+    color: #054752;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.search-panel-buttons input {
+    border: solid 1px #ccc;
+    border-radius: 4px;
+    height: 48px;
+    width: 238px;
+    padding: 0;
+}
+
+.search-panel-buttons>div>input {
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.search-panel-buttons div input::placeholder {
+    color: #ccc;
+}
+
+.search-panel-buttons input[type="date"] {
+    padding-left: 50px;
+}
+
+.search-panel-buttons>input:last-child {
+    margin-right: 0px;
+    background-color: #00AFF5;
+    border: 1px solid #00AFF5;
+    border-radius: 18px;
+    color: #fff;
+    float: right;
+    width: 250px;
+    height: 48px;
+}
+
+/*search-panel styles end*/
+
+/*add-ride start*/
+
+.add-ride {
+    width: 990px;
+    margin: 48px auto;
+    overflow: hidden;
+}
+
+.add-ride-img, .add-ride-text {
+    float: left;
+}
+
+.add-ride-img {
+    width: 554px;
+    height: 320px;
+    background-image: url("https://d1ovtcjitiy70m.cloudfront.net/vi-1/images/rebranding/homeblock_driver_desktop.jpg")
+}
+
+.add-ride-img>img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.add-ride-text {
+    width: 356px;
+    padding-left: 52px;
+    height: 320px;
+}
+
+.add-ride-text-content {
+    transform: translateY(50%);
+}
+
+.add-ride-text h1 {
+    color: #054752;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.add-ride-text p {
+    font-size: 16px;
+    color: #054752;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+
+.add-ride-text a {
+    background-color: #00AFF5;
+    border: 1px solid #00AFF5;
+    border-radius: 18px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    max-width: 240px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+/*add-ride end*/
+
+/* offer start*/
+
+.offer-wrapper {
+    background-color: #EDEDED;
+}
+
+.offer {
+    width: 990px;
+    margin: 0 auto;
+    font-weight: bold;
+    padding: 50px;
+}
+
+.offer-title {
+    color: #054752;
+    padding-bottom: 25px;
+}
+
+.offer-title p {
+    display: inline-block;
+    font-size: 26px;
+}
+
+.offer-title p:last-child {
+    font-size: 15px;
+    float: right;
+    margin-top: 11px;
+}
+
+.popular-offer {
+    font-size: 0;
+}
+
+.popular-offer-examples {
+    background-color: #fff;
+    display: inline-block;
+    padding: 16px;
+    width: 319px;
+    box-sizing: border-box;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+}
+
+.popular-offer-examples:nth-child(2) {
+    margin: 0 16px;
+}
+
+.popular-offer-examples div {
+    display: inline-block;
+}
+
+.travel-direction {
+    font-size: 18px;
+    color: #708C91;
+}
+
+.travel-direction p:last-child {
+    position: relative;
+    top: 13px;
+}
+
+.travel-price {
+    float: right;
+}
+
+.travel-price p {
+    font-size: 15px;
+    color: #5DD167;
+}
+
+.travel-price p:first-child {
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.travel-price p:last-child {
+    font-size: 36px;
+}
+
+/* offer end*/
+
+/*ride-description start*/
+
+.ride-description {
+    width: 990px;
+    margin: 50px auto;
+    font-weight: bold;
+}
+
+.ride-description-title {
+    margin-bottom: 50px;
+}
+
+.ride-description-title p {
+    display: inline-block;
+}
+
+.ride-description-title p:first-child {
+    font-size: 26px;
+    color: #054752;
+}
+
+.ride-description-title p:last-child {
+    color: #00AFF5;
+    font-size: 16px;
+    float: right;
+    line-height: 2;
+}
+
+.description-content {
+    display: inline-block;
+    width: 300px;
+    float: left;
+}
+
+.description-content h1 {
+    color: #054752;
+    font-size: 18px;
+    padding-bottom: 24px;
+}
+
+.description-content p {
+    font-size: 16px;
+    color: #708C91;
+    margin-bottom: 50px;
+}
+
+.description-content:nth-child(3) {
+    margin: 0 45px;
+}
+
+/*ride-description end*/
+
+/*advantages-start*/
+
+.advantages-div {
+    width: 990px;
+    margin: 70px auto;
+    font-weight: bold;
+}
+
+.advantages-div>h1 {
+    font-size: 26px;
+    color: #054752;
+    padding-bottom: 48px;
+}
+
+.advantages {
+    width: 319px;
+    height: 380px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.5;
+    vertical-align: top;
+}
+
+.advantages>img {
+    height: 90px;
+    padding-bottom: 30px;
+}
+
+.advantages h1 {
+    font-size: 18px;
+    color: #054752;
+    padding-bottom: 24px;
+}
+
+.advantages p {
+    font-size: 16px;
+    color: #708C91;
+}
+
+.blog-article .add-info, .advantages .add-info {
+    font-size: 14px;
+    color: #00AFF5;
+    margin-bottom: 24px;
+}
+
+#axa-logo {
+    height: 48px;
+}
+
+/*advantages-end*/
+
+/*blog section start*/
+
+.blog-section {
+    width: 990px;
+    font-weight: bold;
+    margin: 30px auto;
+}
+
+.blog-section-title * {
+    display: inline-block;
+}
+
+.blog-section-title h1 {
+    color: #054752;
+    font-size: 26px;
+}
+
+.blog-section-title h2 {
+    color: #00AFF5;
+    font-size: 16px;
+    float: right;
+}
+
+.blog-article {
+    display: inline-block;
+    width: 319px;
+    vertical-align: top;
+}
+
+.blog-article:nth-child(2) {
+    margin: 0 12px;
+}
+
+.blog-article img {
+    height: 319px;
+    width: 319px;
+    margin-bottom: 16px;
+    margin-top: 24px;
+    border-radius: 4px;
+}
+
+.blog-article h1 {
+    padding-bottom: 16px;
+    font-size: 18px;
+    color: #054752;
+}
+
+.blog-article p:nth-child(3) {
+    font-size: 16px;
+    color: #708C91;
+    line-height: 1.2;
+}
+
+/*blog section end*/
+
+/*media section start*/
+
+.shortcuts-wrapper {
+    background-color: #EDEDED;
+    font-weight: bold;
+    color: #054752;
+}
+
+.shortcuts-section {
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 48px;
+}
+
+.shortcuts-section>* {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.shortcuts-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 219px;
+    margin-right: 32px;
+    margin-bottom: 50px;
+}
+
+.list-title {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.shortcuts-list li {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.media-column {
+    text-align: right;
+    float: right;
+    max-width: 187px;
+}
+
+.store {
+    display: table;
+    float: right;
+}
+
+.store img {
+    max-width: 143px;
+    min-height: 48px;
+    margin-bottom: 8px;
+}
+
+.language-button {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    text-align: left;
+    margin-bottom: 16px;
+    max-height: 48px;
+    max-width: 187px;
+}
+
+.language-button input {
+    border: none;
+    display: block;
+    color: #054752;
+    font-weight: bold;
+    line-height: 18px;
+    font-size: 13px;
+}
+
+.language-button label {
+    font-size: 12px;
+    color: #708C91;
+}
+
+.media-buttons img {
+    width: 36px;
+    margin-left: 5px;
+}
+
+.copyrights {
+    font-size: 13px;
+    color: #708C91;
+    padding-bottom: 15px;
+}
+
+footer {
+    background-color: #ccc;
+}
+
+.page-footer {
+    margin: 0 auto;
+    width: 940px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #708C91;
+    padding: 16px;
+}
+
+/*media section end*/
+
+/*responsive 1024px (bp1) start*/
+
+@media (max-width: 1024px) {
+    .search-panel-content, .search-panel, .search-panel-buttons, .add-ride, .offer, .advantages-div, .blog-section, .shortcuts-section, .page-footer {
+        width: 750px;
+    }
+    .search-panel {
+        top: 300px;
+    }
+    .search-panel-buttons>input {
+        position: relative;
+        right: 261px;
+        margin-top: 10px;
+    }
+    .add-ride-wrapper, .ride-description-content {
+        width: 750px;
+        margin: 0 auto;
+    }
+    .add-ride-img {
+        width: 410px;
+        display: inline-block;
+    }
+    .add-ride-text {
+        width: 287px;
+        display: inline-block;
+    }
+    .add-ride-text-content {
+        text-align: center;
+    }
+    .add-ride-text-content a {
+        margin: 0 auto;
+    }
+    .popular-offer-examples, .popular-offer-examples:nth-child(2) {
+        width: 250px;
+        margin: 10px auto;
+    }
+    .ride-description, .media-column {
+        width: 100%;
+    }
+    .description-content {
+        width: 220px;
+    }
+    .advantages {
+        width: 247px;
+    }
+    .blog-article, .blog-article img {
+        width: 237px;
+    }
+    .shortcuts-columns {
+        display: flex;
+        justify-content: space-between;
+    }
+    .media-column {
+        float: none;
+        text-align: left;
+        max-width: 100%;
+    }
+    .store {
+        float: none;
+        display: inline;
+        margin-right: 99px;
+    }
+    .language-button, .media-buttons, .clear-fix {
+        display: inline-block;
+    }
+    .language-button {
+        vertical-align: text-bottom;
+    }
+    .media-buttons {
+        vertical-align: top;
+    }
+    .copyrights {
+        display: block;
+    }
+}
+
+/*responsive 1024px (bp1) end*/
+
+/*responsive 768px (bp2) start*/
+
+@media (max-width: 768px) {
+    body {
+        margin: 0 auto;
+    }
+    .navigation {
+        text-align: right;
+    }
+    .hide-bp2, .navigation .hide-bp2, .offer-title p:last-child, .travel-price p:first-child, .ride-description-title p:last-child {
+        display: none;
+    }
+    .navigation li, .navigation ul li:first-child {
+        margin-right: 0;
+    }
+    .search-panel-content, .search-panel, .search-panel-buttons, .add-ride, .offer, .ride-description-content, .advantages-div, .blog-section, .shortcuts-section, .page-footer {
+        width: 600px;
+    }
+    .search-panel-wrapper {
+        max-height: 136px;
+    }
+    .search-panel {
+        top: 220px;
+    }
+    .search-panel-content {
+        height: 300px;
+    }
+    .search-panel-slogan {
+        color: #054752;
+    }
+    .search-panel-wrapper h1, .add-ride-wrapper h1,.offer-title p:first-child, .ride-description-title p:first-child, .advantages-div h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .search-panel-wrapper h2, .add-ride-text-content p {
+        font-size: 14px;
+    }
+    .search-panel-buttons>input:last-child {
+        width: 100%;
+        position: static;
+    }
+    .add-ride-wrapper {
+        margin-top: 200px;
+        width: auto;
+    }
+    .add-ride-img{
+        width: 100%;
+        height: 136px;
+        background-position-y: -100px;
+        background-size: cover;
+    }
+    .add-ride-text{
+        margin-top: 20px;
+        width: 100%;
+        padding-left: 0;
+        height: 135px;
+    }
+    .add-ride-text-content{
+        transform: none;
+    }
+    .add-ride-text-content p {
+        font-weight: bold;
+    }
+    .description-content,  .popular-offer-examples:nth-child(2){
+        width: 100%;
+    }
+    .add-ride-text a, {
+        max-width: 100%;
+    }
+    .offer-wrapper{
+        background-color: #fff;
+    }
+    .offer{
+        box-sizing: border-box;
+        background-color:#5DD167; 
+        padding: 20px;
+    }
+    .offer-title{
+        text-align: center;
+        color: #fff;
+    }
+    .popular-offer-examples{
+        display: block;
+        width: 100%;
+        padding-left: 100px;
+    }
+
+    .travel-direction p{
+        display: inline;
+        font-size: 17px;
+        margin-left: 30px;
+    }
+    .travel-direction p:last-child{
+        top:0;
+    }
+    .travel-price p:last-child{
+        font-size: 24px;
+    }
+    .ride-description-title, .description-content, .advantages-div{
+        text-align: center;
+    }
+    .description-content:nth-child(3){
+    margin: 0;
+    }
+    .description-content h1, .advantages h1 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .description-content p, .advantages p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .description-content p:last-child{
+        margin-bottom: 40px;
+    }
+    
+    .advantages{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+/*responsive 768px (bp2) end*/
